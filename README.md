@@ -22,6 +22,10 @@ $ npm i -g @nestjs/cli
 ```bash
 $ docker-compose up -d
 ```
+5. Execute to reconstruct DB with the seed
+```bash
+$ localhost:3000/api/v1/seed
+```
 
 ## Running the app
 
