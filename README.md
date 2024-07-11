@@ -22,7 +22,16 @@ $ npm i -g @nestjs/cli
 ```bash
 $ docker-compose up -d
 ```
-5. Execute to reconstruct DB with the seed
+5. Clone __.env.example__ file and rename the copy as __.env__
+
+6. Fullfill environment variables defined in .env
+
+7. Exexute app in dev by:
+```bash
+$ yarn start:dev
+```
+
+8. Execute to reconstruct DB with the seed
 ```bash
 $ localhost:3000/api/v1/seed
 ```
